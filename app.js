@@ -20,11 +20,11 @@ function fonction($scope){
          console.log(len);
          
          var result;
-        if(len<= 3){  result="Enjoys!";  }
+        if(len<= 3){  result="Enjoys!";  $scope.couleur="#010D3D";}
 
-        if(3 < len){  result="Too much !";}
+        if(3 < len){  result="Too much !"; $scope.couleur="#010D3D";}
         
-        if($scope.verify==""){   result="Please enter data first ";}	
+        if($scope.verify==""){   result="Please enter data first "; $scope.couleur="#D43629";}	
        
         $scope.message=result;
 
